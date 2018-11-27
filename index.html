@@ -67,8 +67,8 @@
       </nav>
 
       <!-- Product Wrapper -->
-      <section>
-        <div class="container">
+      <section id='main-content'>
+        <div class="container-custom">
           <div class="row">
             <!-- product -->
             <div class="col-md-3">
@@ -78,14 +78,16 @@
                   <div class="col-md-3"></div>
                   <div class="card">
                     <div class="card-body">
-                      <div class="row">
-                        <div class="btn-group-vertical">
+                      <div class="align-items">
+                        <div class="item">
                           <button
                             type="button"
                             class="btn btn-outline-warning btn-sm"
                           >
                             Edit Product
                           </button>
+                        </div>
+                        <div class="item">
                           <button
                             type="button"
                             class="btn btn-outline-primary btn-sm"
@@ -93,15 +95,15 @@
                             Add URL
                           </button>
                         </div>
-                        <!-- Force next columns to break to new line -->
-                        <div class="w-200"></div>
-                        <div class="btn-group-vertical">
+                        <div class="item">
                           <button
                             type="button"
                             class="btn btn-outline-success btn-sm"
                           >
                             Refresh Prices Now
                           </button>
+                        </div>
+                        <div class="item">
                           <button
                             type="button"
                             class="btn btn-outline-danger btn-sm"
@@ -114,12 +116,9 @@
                   </div>
                 </div>
                 <!-- Product picture -->
-                <div class="card" style="width:250px">
-                  <img
-                    class="card-img-top"
-                    src="http://placekitten.com/200/300"
-                    alt="Card image"
-                  />
+                <div class="card">
+                  <div class="card-img-top kitten1">
+                  </div>
                   <div class="card-body">
                     <h4 class="card-title">
                       Boneco 7147 Zwart Ultrasoon bevochtiger

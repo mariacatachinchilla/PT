@@ -5,6 +5,7 @@ body{
 
 .navbar {
     background-color: #ffffff;
+    font-size: 13px
   }
   .navbar .navbar-brand {
     color: #557cbd;
@@ -62,21 +63,19 @@ body{
     color: #ffffff;
   }
 
+  .table{
+    font-size: 10px
 
-  .list-group-item{
-    background-color:#F6BB2F;
-    color: #ffffff;
+  
   }
 
   .card-body{
-    background-color: #ffffff
+    font-size: 12px
   }
 
   .breadcrumb{
     background-color: #E7E7E7
   }
-
-
 
   
   @media (max-width: 575px) {
@@ -161,58 +160,3 @@ body{
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
-  }
-
-
-
-
-/*
-  Vlad's fixes
-*/
-
-
-nav img:first-of-type {
-  height: 80px;
-}
-
-#main-content {
-  margin-top: calc(80px + 2em);
-}
-
-.container-custom {
-  width: 90%;
-  margin: auto;
-}
-
-.card {
-  width: 100%;
-}
-
-/*
-  using background-image is better than img when it comes to dynamic content
-*/
-.kitten1 {
-  height: 400px;
-  max-height: 400px;
-  background-image: url('http://placekitten.com/200/300');
-  background-position: center top;
-  background-size: cover;
-}
-
-.align-items {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.align-items .item {
-  /* width: 50%; */
-  width: 45%;
-  margin: 5px;
-}
-
-
-.align-items .item button {
-  width: 100%;
-  padding: 10px;
-}

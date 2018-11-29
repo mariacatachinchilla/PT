@@ -9,7 +9,12 @@
     <title>Price Tweakers</title>
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
     <link href="css/style.css" rel="stylesheet" />
   </head>
 
@@ -18,7 +23,11 @@
 
     <div class="container-fluid">
       <nav class="navbar navbar-expand p-0 fixed-top">
-          <img src="./assets/images/PTlogo.svg" alt="Logo" style="width:180px; margin:5px;">
+        <img
+          src="./assets/images/PTlogo.svg"
+          alt="Logo"
+          style="width:180px; margin:5px;"
+        />
         <button
           class="navbar-toggler"
           type="button"
@@ -33,10 +42,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav brand-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-home"></i> Dashboard</a>
+              <a class="nav-link" href="#"
+                ><i class="fas fa-home"></i> Dashboard</a
+              >
             </li>
-            <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Reports</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reports</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Product Data</a>
             </li>
@@ -54,14 +69,30 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Users</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Sites</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Subscr</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Setup</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Sites</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Demo</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Settings</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sites</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Subscr</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Setup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sites</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Demo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Settings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Account</a>
+            </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0"></form>
         </div>
@@ -69,53 +100,51 @@
 
       <!-- Product Wrapper -->
       <section>
-        <div class="container ml-1 mr-1">
+        <div class="container-fluid mt-5 ml-1 mr-1">
           <div class="row">
             <!-- product -->
             <div class="col-md-3">
-              <div class="rounded">
-                <div class="card flex-nowrap mt-5">
-                  <div class="card-header text-white bg-warning "><i class="fas fa-arrow-left"></i>  Product</div>   
-                  <div class="col-md-3"></div>
-                  <div class="card">
-                    <div class="card-body">
-                      <div class="row"> 
-                        <div class="btn-group-vertical">
-                          <button
-                            type="button"
-                            class="btn btn-outline-warning btn-sm"
-                          >
-                          <i class="fas fa-pencil-alt"></i> Edit Product
-                          </button>
-                          <button
-                            type="button"
-                            class="btn btn-outline-primary btn-sm"
-                          >
-                          <i class="fas fa-plus-circle"></i> Add URL
-                          </button>
+              <section class="card flex-nowrap mt-5">
+                <header class="card-header text-white bg-warning ">
+                  <i class="fas fa-arrow-left"></i> Product
+                </header>
+
+                <div class="card-body px-3">
+                  <div class="bg-light">
+                    <div class="row align-items-center">
+                      <div class="col-md-6 align-items-center">
+                        <div class="p-2">
+                          <a href="#" class="text-warning">
+                            <i class="fas fa-pencil-alt"></i> Edit
+                            Product
+                          </a>
                         </div>
-                        <!-- Force next columns to break to new line -->
-                        <div class="w-200 mr-1"></div>
-                        <div class="btn-group-vertical">
-                          <button
-                            type="button"
-                            class="btn btn-outline-success btn-sm mr-1"
-                          >
-                          <i class="fas fa-sync-alt"></i> Refresh Prices Now
-                          </button>
-                          <button
-                            type="button"
-                            class="btn btn-outline-danger btn-sm"
-                          >
-                          <i class="fas fa-trash-alt"></i> Delete Product
-                          </button>
+                        <div class="p-2">
+                          <a href="#" class="text-primary">
+                            <i class="fas fa-plus-circle"></i> Add URL
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-6 align-items-center">
+                        <div class="p-2">
+                          <a href="#" class="text-success">
+                            <i class="fas fa-sync-alt"></i> Refresh
+                            Prices Now
+                          </a>
+                        </div>
+                        <div class="p-2">
+                          <a href="#" class="text-danger">
+                            <i class="fas fa-trash-alt"></i> Delete
+                            Product
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <!-- Product picture -->
-                <div class="card" style="width:250px">
+                  <!-- /row -->
+
+                  <!-- Product picture -->
+
                   <img
                     class="card-img-top"
                     src="http://placekitten.com/200/300"
@@ -126,31 +155,49 @@
                       Boneco 7147 Zwart Ultrasoon bevochtiger
                     </h5>
                   </div>
-                </div>
-                <!-- Product description and info -->
-                <ul class="list-group">
-                  <li class="list-group-item p-1 border-0">EAN</li>
-                  <li class="list-group-item list-group-item-secondary p-1 border-0">
-                    SKU
-                  </li>
-                  <li class="list-group-item p-1 border-0">MPN</li>
-                  <li class="list-group-item list-group-item-secondary p-1 border-0">
-                    Size/Color
-                  </li>
-                  <li class="list-group-item p-1 border-0">VAT Rate %</li>
-                  <li class="list-group-item list-group-item-secondary p-1 border-0">
-                    Internal ID
-                  </li>
-                  <li class="list-group-item p-1 border-0">MAP Price</li>
-                  <li class="list-group-item list-group-item-secondary p-1 border-0">
-                    Purchase Price
-                  </li>
-                  <li class="list-group-item p-1 border-0">Selling Price</li>
-                  <li class="list-group-item list-group-item-secondary p-1 border-0">
+
+                  <!-- Product description and info -->
+                  <ul class="list-group">
+                    <li class="list-group-item p-1 border-0">EAN</li>
+                    <li
+                      class="list-group-item list-group-item-secondary p-1 border-0"
+                    >
+                      SKU
+                    </li>
+                    <li class="list-group-item p-1 border-0">MPN</li>
+                    <li
+                      class="list-group-item list-group-item-secondary p-1 border-0"
+                    >
+                      Size/Color
+                    </li>
+                    <li class="list-group-item p-1 border-0">
+                      VAT Rate %
+                    </li>
+                    <li
+                      class="list-group-item list-group-item-secondary p-1 border-0"
+                    >
+                      Internal ID
+                    </li>
+                    <li class="list-group-item p-1 border-0">
+                      MAP Price
+                    </li>
+                    <li
+                      class="list-group-item list-group-item-secondary p-1 border-0"
+                    >
+                      Purchase Price
+                    </li>
+                    <li class="list-group-item p-1 border-0">
+                      Selling Price
+                    </li>
+                    <li
+                      class="list-group-item list-group-item-secondary p-1 border-0"
+                    >
                       Product Group
                     </li>
-                </ul>
-              </div>
+                  </ul>
+                </div>
+                <!-- /card-body -->
+              </section>
             </div>
             <!-- product details and history column -->
             <div class="col-md-9">
@@ -164,93 +211,94 @@
                     <div class="card-columns m-3">
                       <div class="card bg-light">
                         <div class="card-body text-left p-0">
-                          <p class="card-text">
-                              <table class="table table-xs">
-                                  <thead class="thead-light">
-                                    <tr>
-                                      <th scope="col">Name</th>
-                                      <th scope="col">Price</th>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                      <th scope="row">Airsain.nl</th>
-                                      <td>20 US</td>
-                                    </tr>
-                                    <tr>
-                                      <th scope="row">BOL.COM</th>
-                                      <td>127 US</td>
-                                    </tr>
-                                    <tr>
-                                      <th scope="row">Shopvoorgezondhels.nl</th>
-                                      <td>88 US</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                          </p>
+                          <table class="table table-xs card-text">
+                            <thead class="thead-light">
+                              <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Price</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Airsain.nl</th>
+                                <td>20 US</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">BOL.COM</th>
+                                <td>127 US</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  Shopvoorgezondhels.nl
+                                </th>
+                                <td>88 US</td>
+                              </tr>
+                            </tbody>
+                          </table>
                         </div>
                       </div>
                       <div class="card bg-light">
                         <div class="card-body text-left m-2 p-0">
-                          <p class="card-text">
-                              <div class="card mt-1 mb-1">
-                                  <div class="card-body p-1">
-                                    Total Possible Price Increase
-                                  </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                      <div class="card mt-2">
-                                        <div class="card-body text-center">
-                                          <p class="card-text">Difference $</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                      <div class="card mt-2">
-                                          <div class="card-body text-center">
-                                              <p class="card-text">Difference %</p>
-                                            </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                          </p>
-                        </div>
-                      </div>
-                      <div class="card bg-light">
-                        <div class="card-body text-center">
-                          <p class="card-text">
+                          <div class="card mt-1 mb-1">
+                            <div class="card-body p-1">
+                              Total Possible Price Increase
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-6">
                               <div class="card mt-2">
-                                  <div class="card-body text-center">
-                                      <p class="card-text">12%</p>
-                                    </div>
+                                <div class="card-body text-center">
+                                  <p class="card-text">Difference $</p>
+                                </div>
                               </div>
-                              Of your products are more expensive 
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="card mt-2">
+                                <div class="card-body text-center">
+                                  <p class="card-text">Difference %</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card bg-light">
+                        <div class="card-body text-center">
+                          <div class="card mt-2">
+                            <div class="card-body text-center">
+                              <p class="card-text">12%</p>
+                            </div>
+                          </div>
+                          <span class="card-text"
+                            >Of your products are more expensive</span
+                          >
+                        </div>
+                      </div>
+                      <div class="card bg-light">
+                        <div class="card-body text-center">
+                          <p class="card-text">Product Index</p>
+                          <br />
+                          <p class="card-text">Brand Index</p>
+                        </div>
+                      </div>
+                      <div class="card bg-light">
+                        <div class="card-body text-center">
+                          <p class="card-text">
+                            <img
+                              src="./assets/images/Capture.svg"
+                              alt=""
+                            />
                           </p>
                         </div>
                       </div>
                       <div class="card bg-light">
                         <div class="card-body text-center">
                           <p class="card-text">
-                            Product Index
-                          </p>
-                          <br>
-                          <p class="card-text">
-                              Brand Index
-                            </p>
-                        </div>
-                      </div>
-                      <div class="card bg-light">
-                        <div class="card-body text-center">
-                          <p class="card-text">
-                              <img src="./assets/images/Capture.svg" alt="" />
-                          </p>
-                        </div>
-                      </div>
-                      <div class="card bg-light">
-                        <div class="card-body text-center">
-                          <p class="card-text">
-                            <img src="./assets/images/chart2.svg" alt="" />
+                            <img
+                              src="./assets/images/chart2.svg"
+                              alt=""
+                            />
                           </p>
                         </div>
                       </div>
@@ -281,7 +329,10 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <th scope="row"><i class="fas fa-pencil-alt"></i> <i class="fas fa-trash-alt"></i></th>
+                          <th scope="row">
+                            <i class="fas fa-pencil-alt"></i>
+                            <i class="fas fa-trash-alt"></i>
+                          </th>
                           <td>airsain.nl</td>
                           <td>Boneco 7147 Wit</td>
                           <td>179.00 EUR</td>
@@ -291,7 +342,10 @@
                           <td>0</td>
                         </tr>
                         <tr>
-                          <th scope="row"><i class="fas fa-pencil-alt"></i> <i class="fas fa-trash-alt"></i></th>
+                          <th scope="row">
+                            <i class="fas fa-pencil-alt"></i>
+                            <i class="fas fa-trash-alt"></i>
+                          </th>
                           <td>airsain.nl</td>
                           <td>Boneco 7147 Wit</td>
                           <td>179.00 EUR</td>
@@ -301,7 +355,10 @@
                           <td>0</td>
                         </tr>
                         <tr>
-                          <th scope="row"><i class="fas fa-pencil-alt"></i> <i class="fas fa-trash-alt"></i></th>
+                          <th scope="row">
+                            <i class="fas fa-pencil-alt"></i>
+                            <i class="fas fa-trash-alt"></i>
+                          </th>
                           <td>airsain.nl</td>
                           <td>Boneco 7147 Wit</td>
                           <td>179.00 EUR</td>
@@ -311,45 +368,57 @@
                           <td>0</td>
                         </tr>
                         <tr>
-                            <th scope="row"><i class="fas fa-pencil-alt"></i> <i class="fas fa-trash-alt"></i></th>
-                            <td>airsain.nl</td>
-                            <td>Boneco 7147 Wit</td>
-                            <td>179.00 EUR</td>
-                            <td>YES</td>
-                            <td>4 seconds ago</td>
-                            <td>4 seconds ago</td>
-                            <td>0</td>
-                          </tr>
-                          <tr>
-                              <th scope="row"><i class="fas fa-pencil-alt"></i> <i class="fas fa-trash-alt"></i></th>
-                              <td>airsain.nl</td>
-                              <td>Boneco 7147 Wit</td>
-                              <td>179.00 EUR</td>
-                              <td>YES</td>
-                              <td>4 seconds ago</td>
-                              <td>4 seconds ago</td>
-                              <td>0</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><i class="fas fa-pencil-alt"></i> <i class="fas fa-trash-alt"></i></th>
-                                <td>airsain.nl</td>
-                                <td>Boneco 7147 Wit</td>
-                                <td>179.00 EUR</td>
-                                <td>YES</td>
-                                <td>4 seconds ago</td>
-                                <td>4 seconds ago</td>
-                                <td>0</td>
-                              </tr>
-                              <tr>
-                                  <th scope="row"><i class="fas fa-pencil-alt"></i> <i class="fas fa-trash-alt"></i></th>
-                                  <td>airsain.nl</td>
-                                  <td>Boneco 7147 Wit</td>
-                                  <td>179.00 EUR</td>
-                                  <td>YES</td>
-                                  <td>4 seconds ago</td>
-                                  <td>4 seconds ago</td>
-                                  <td>0</td>
-                                </tr>
+                          <th scope="row">
+                            <i class="fas fa-pencil-alt"></i>
+                            <i class="fas fa-trash-alt"></i>
+                          </th>
+                          <td>airsain.nl</td>
+                          <td>Boneco 7147 Wit</td>
+                          <td>179.00 EUR</td>
+                          <td>YES</td>
+                          <td>4 seconds ago</td>
+                          <td>4 seconds ago</td>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <i class="fas fa-pencil-alt"></i>
+                            <i class="fas fa-trash-alt"></i>
+                          </th>
+                          <td>airsain.nl</td>
+                          <td>Boneco 7147 Wit</td>
+                          <td>179.00 EUR</td>
+                          <td>YES</td>
+                          <td>4 seconds ago</td>
+                          <td>4 seconds ago</td>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <i class="fas fa-pencil-alt"></i>
+                            <i class="fas fa-trash-alt"></i>
+                          </th>
+                          <td>airsain.nl</td>
+                          <td>Boneco 7147 Wit</td>
+                          <td>179.00 EUR</td>
+                          <td>YES</td>
+                          <td>4 seconds ago</td>
+                          <td>4 seconds ago</td>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <i class="fas fa-pencil-alt"></i>
+                            <i class="fas fa-trash-alt"></i>
+                          </th>
+                          <td>airsain.nl</td>
+                          <td>Boneco 7147 Wit</td>
+                          <td>179.00 EUR</td>
+                          <td>YES</td>
+                          <td>4 seconds ago</td>
+                          <td>4 seconds ago</td>
+                          <td>0</td>
+                        </tr>
                       </tbody>
                     </table>
                     <blockquote class="blockquote mb-0"></blockquote>
@@ -370,9 +439,8 @@
               </div>
               <div class="card-body">
                 <div class="card" style="width:700px">
-                  <img
-                    src="./assets/images/chart.svg" style="width:300px; margin:5px alt="Card image"
-                  />
+                  <img src="./assets/images/chart.svg"
+                  style="width:300px; margin:5px alt="Card image" />
                 </div>
               </div>
             </div>

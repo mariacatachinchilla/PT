@@ -62,7 +62,14 @@ body{
   .navbar .navbar-link:hover {
     color: #ffffff;
   }
-
+  .navbar .navbar-nav {
+    
+    vertical-align: top;
+  }
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
   .table{
     
     font-size: 11px

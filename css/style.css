@@ -66,6 +66,10 @@ body{
     
     vertical-align: top;
   }
+
+  .svg{
+    color: #557cbd
+  }
   
   .navbar .navbar-collapse {
     text-align: center;

@@ -5,7 +5,7 @@ body{
 
 .navbar {
     background-color: #ffffff;
-    font-size: 13px
+    font-size: 14px
   }
   .navbar .navbar-brand {
     color: #557cbd;
@@ -65,10 +65,6 @@ body{
   .navbar .navbar-nav {
     
     vertical-align: top;
-  }
-
-  .svg{
-    color: #557cbd
   }
   
   .navbar .navbar-collapse {

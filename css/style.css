@@ -8,14 +8,14 @@ body{
     font-size: 13px
   }
   .navbar .navbar-brand {
-    color: #557cbd;
+    color: #989898;
   }
   .navbar .navbar-brand:hover,
   .navbar .navbar-brand:focus {
     color: #2da854;
   }
   .navbar .navbar-text {
-    color: #557cbd;
+    color: #989898;
   }
   .navbar .navbar-text a {
     color: #2da854;
@@ -25,7 +25,7 @@ body{
     color: #2da854; 
   }
   .navbar .navbar-nav .nav-link {
-    color: #557cbd;
+    color: #989898;
     border-radius: .25rem;
     margin: 0 0.25em;
   }
@@ -54,10 +54,10 @@ body{
   }
   .navbar .navbar-collapse,
   .navbar .navbar-form {
-    border-color: #557cbd;
+    border-color: #989898;
   }
   .navbar .navbar-link {
-    color: #557cbd;
+    color: #989898;
   }
   .navbar .navbar-link:hover {
     color: #ffffff;

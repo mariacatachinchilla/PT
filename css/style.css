@@ -83,11 +83,6 @@ body{
   }
 
 
-  }
-  .breadcrumb{
-    background-color: #E7E7E7
-  }
-
   
   @media (max-width: 575px) {
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {

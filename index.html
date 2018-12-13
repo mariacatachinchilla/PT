@@ -512,41 +512,46 @@
                 </header>
 
                 <div class="card-body px-3">
-                  <div class="bg-light rounded">
-                    <div class="row  mb-3">
-                      <div
-                        class="col-md-6 text-center"
-                        style="font-size:13px"
+                  <div class="bg-light rounded p-2 mb-3">
+                    <div
+                      class="row  mb-3 align-items-center justify-content-center"
+                    >
+                      <a
+                        href="#"
+                        class="text-warning col-md-6"
+                        style="max-width: 160px"
                       >
-                        <div class="p-2">
-                          <a href="#" class="text-warning">
-                            <i class="fas fa-pencil-alt"></i> Edit
-                            Product
-                          </a>
-                        </div>
-                        <div class="p-2">
-                          <a href="#" class="text-primary">
-                            <i class="fas fa-plus-circle"></i> Add URL
-                          </a>
-                        </div>
-                      </div>
-                      <div
-                        class="col-md-6 pl-0 text-center pr-3 "
-                        style="font-size:13px"
+                        <i class="fas fa-pencil-alt"></i> Edit Product
+                      </a>
+
+                      <a
+                        href="#"
+                        class="text-success col-md-6"
+                        style="max-width: 160px"
                       >
-                        <div class="p-2">
-                          <a href="#" class="text-success">
-                            <i class="fas fa-sync-alt"></i> Refresh
-                            Prices Now
-                          </a>
-                        </div>
-                        <div class="p-2">
-                          <a href="#" class="text-danger">
-                            <i class="fas fa-trash-alt"></i> Delete
-                            Product
-                          </a>
-                        </div>
-                      </div>
+                        <i class="fas fa-sync-alt"></i> Refresh Prices
+                        Now
+                      </a>
+                    </div>
+                    <!-- row -->
+                    <div
+                      class="row align-items-center justify-content-center"
+                    >
+                      <a
+                        href="#"
+                        class="text-primary col-md-6"
+                        style="max-width: 160px"
+                      >
+                        <i class="fas fa-plus-circle"></i> Add URL
+                      </a>
+
+                      <a
+                        href="#"
+                        class="text-danger col-md-6"
+                        style="max-width: 160px"
+                      >
+                        <i class="fas fa-trash-alt"></i> Delete Product
+                      </a>
                     </div>
                     <!-- /row -->
                   </div>
@@ -636,239 +641,224 @@
             <!-- product details and history column -->
             <div class="col-md-9">
               <!-- product details -->
-              <div class="row">
-                <div class="rounded">
+
+              <div class="rounded">
+                <div
+                  class="card mt-5 ml-3 pb-0 mb-0 shadow-sm"
+                  style="background-color: #F1F1F1"
+                >
                   <div
-                    class="card mt-5 ml-3 mr-3 pb-0 mb-0 shadow-sm"
-                    style="background-color: #F1F1F1"
+                    class="card-header text-white p-2"
+                    style="background-color:#2DA854"
                   >
-                    <div
-                      class="card-header text-white p-2"
-                      style="background-color:#2DA854"
-                    >
-                      Product Details
-                    </div>
-                    <div class="m-3">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <div class="p-3 bg-light rounded">
-                            <h6>Top 3 Competitors</h6>
-                            <div
-                              class="card-body rounded text-left p-0 shadow-sm"
-                              style="overflow:hidden"
-                            >
-                              <table
-                                class="table table-xs card-text"
-                                style="font-size: 12px"
-                              >
-                                <thead
-                                  class="thead text-white"
-                                  style="background-color:#71CE8D"
-                                >
-                                  <tr>
-                                    <th scope="col" class="p-1">
-                                      Name
-                                    </th>
-                                    <th scope="col" class="p-1">
-                                      Price
-                                    </th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row" class="p-1">
-                                      <span
-                                        class="badge badge-success badge-pill"
-                                        >1</span
-                                      >
-                                      Airsain.nl
-                                    </th>
-                                    <td class="p-1">20 US</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row" class="p-1">
-                                      <span
-                                        class="badge badge-info badge-pill"
-                                        >2</span
-                                      >
-                                      BOL.COM
-                                    </th>
-                                    <td class="p-1">127 US</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row" class="p-1">
-                                      <span
-                                        class="badge badge-success badge-danger"
-                                        >3</span
-                                      >
-                                      Shopvoorgezondhels.nl
-                                    </th>
-                                    <td class="p-1">88 US</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            </div>
-                          </div>
-                          <!-- /card -->
-
-                          <div class="card bg-light border-0 mb-0 mt-2">
-                            <div class="card-body text-left m-2 p-0">
-                              <div class="p-1 ml-1 mb-3  border-bottom">
-                                <div class="row">
-                                  <div class="col-md-9">
-                                    <h6 class="m-0">
-                                      Total Possible Price Increase
-                                    </h6>
-                                  </div>
-                                  <div class="col-md-3">
-                                    <h5 class="m-0 text-success">14</h5>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div class="row text-center">
-                                <div class="col-sm-6 border-right">
-                                  <p
-                                    class="card-text"
-                                    style="font-size:16px"
-                                  >
-                                    Difference$
-                                  </p>
-                                  <h4
-                                    class="card-text"
-                                    style="color:#557CBD"
-                                  >
-                                    23$
-                                  </h4>
-                                </div>
-                                <div class="col-sm-6">
-                                  <p
-                                    class="card-text"
-                                    style="font-size:16px"
-                                  >
-                                    Difference%
-                                  </p>
-                                  <h4
-                                    class="card-text"
-                                    style="color:#557CBD"
-                                  >
-                                    6%
-                                  </h4>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- /card -->
-                        </div>
-                        <!-- col-md-5 -->
-                        <div class="col-md-2">
-
-                              <div
-                                class="card mt-2 border-0 mb-1 text-center p-3 m-2"
-                                style="background-color:#F8F9FA"
-                              >
-                                <div
-                                  class="card-body text-center p-0"
-                                  style="color:#E94537"
-                                >
-                                  <h2 class="card-text mb-0">12%</h2>
-
-                                  <br />
-
-                                    <p class="card-text"
-                                    style="color:#545353">
-                                      Of your products are more
-                                      expensive
-                                    </p>
-
-                                </div>
-                              </div>
-
-                          <!-- /card -->
-
+                    Product Details
+                  </div>
+                  <div class="m-3">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <div class="p-3 bg-light rounded">
+                          <h6>Top 3 Competitors</h6>
                           <div
-                            class="card border-0 mt-1 pb3"
-                            style="background-color:#f1f1f1"
+                            class="card-body rounded text-left p-0 shadow-sm"
+                            style="overflow:hidden"
                           >
-                            <div
-                              class="card-body text-center mt-1 rounded"
-                              style="background-color:#F8F9FA"
+                            <table
+                              class="table table-xs card-text"
+                              style="font-size: 12px"
                             >
-                              <h5 class="card-text m-0 p-0">
-                                Product Index
-                              </h5>
-
-                              <div
-                                class="card-body text-center p-0 m-0"
-                                style="color:#557CBD"
+                              <thead
+                                class="thead text-white"
+                                style="background-color:#71CE8D"
                               >
-                                <h4 class="card-text p-0">12%</h4>
+                                <tr>
+                                  <th scope="col" class="p-1">Name</th>
+                                  <th scope="col" class="p-1">Price</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row" class="p-1">
+                                    <span
+                                      class="badge badge-success badge-pill"
+                                      >1</span
+                                    >
+                                    Airsain.nl
+                                  </th>
+                                  <td class="p-1">20 US</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row" class="p-1">
+                                    <span
+                                      class="badge badge-info badge-pill"
+                                      >2</span
+                                    >
+                                    BOL.COM
+                                  </th>
+                                  <td class="p-1">127 US</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row" class="p-1">
+                                    <span
+                                      class="badge badge-success badge-danger"
+                                      >3</span
+                                    >
+                                    Shopvoorgezondhels.nl
+                                  </th>
+                                  <td class="p-1">88 US</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <!-- /card -->
+
+                        <div class="card bg-light border-0 mb-0 mt-2">
+                          <div class="card-body text-left m-2 p-0">
+                            <div class="p-1 ml-1 mb-3  border-bottom">
+                              <div class="row">
+                                <div class="col-md-9">
+                                  <h6 class="m-0">
+                                    Total Possible Price Increase
+                                  </h6>
+                                </div>
+                                <div class="col-md-3">
+                                  <h5 class="m-0 text-success">14</h5>
+                                </div>
                               </div>
-                              <br />
+                            </div>
 
-                              <h6 class="card-text p-0 m-0">
-                                Brand Index
-                              </h6>
-
-                              <div
-                                class="card-body text-center p-0 m-0"
-                                style="color:#557CBD"
-                              >
-                                <h5 class="card-text p-0">12%</h5>
+                            <div class="row text-center">
+                              <div class="col-sm-6 border-right">
+                                <p
+                                  class="card-text"
+                                  style="font-size:16px"
+                                >
+                                  Difference$
+                                </p>
+                                <h4
+                                  class="card-text"
+                                  style="color:#557CBD"
+                                >
+                                  23$
+                                </h4>
+                              </div>
+                              <div class="col-sm-6">
+                                <p
+                                  class="card-text"
+                                  style="font-size:16px"
+                                >
+                                  Difference%
+                                </p>
+                                <h4
+                                  class="card-text"
+                                  style="color:#557CBD"
+                                >
+                                  6%
+                                </h4>
                               </div>
                             </div>
                           </div>
-                          <!-- /card -->
                         </div>
-                        <!-- col-md-2 -->
-                        <div class="col-md-5">
+                        <!-- /card -->
+                      </div>
+                      <!-- col-md-5 -->
+                      <div class="col-md-2">
+                        <div
+                          class="card mt-2 border-0 mb-1 text-center p-3 m-2"
+                          style="background-color:#F8F9FA"
+                        >
                           <div
-                            class="card border-0"
+                            class="card-body text-center p-0"
+                            style="color:#E94537"
+                          >
+                            <h2 class="card-text mb-0">12%</h2>
+
+                            <br />
+
+                            <p class="card-text" style="color:#545353">
+                              Of your products are more expensive
+                            </p>
+                          </div>
+                        </div>
+
+                        <!-- /card -->
+
+                        <div
+                          class="card border-0 mt-1 pb3"
+                          style="background-color:#f1f1f1"
+                        >
+                          <div
+                            class="card-body text-center mt-1 rounded"
                             style="background-color:#F8F9FA"
                           >
+                            <h5 class="card-text m-0 p-0">
+                              Product Index
+                            </h5>
+
                             <div
-                              class="card-body text-center pt-0 pb-5"
+                              class="card-body text-center p-0 m-0"
+                              style="color:#557CBD"
                             >
-                              <div class="row">
-                                <div class="col">
-                                  <p class="card-text">Cheaper</p>
-                                  🤨
-                                </div>
-                                <div class="col">
-                                  <p class="card-text">Equal Pr</p>
-                                  🤨
-                                </div>
-                                <div class="col">
-                                  <p class="card-text">More Expens</p>
-                                  🤨
-                                </div>
-                                <div class="col">
-                                  <p class="card-text">MAP</p>
-                                  🤨
-                                </div>
+                              <h4 class="card-text p-0">12%</h4>
+                            </div>
+                            <br />
+
+                            <h6 class="card-text p-0 m-0">
+                              Brand Index
+                            </h6>
+
+                            <div
+                              class="card-body text-center p-0 m-0"
+                              style="color:#557CBD"
+                            >
+                              <h5 class="card-text p-0">12%</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /card -->
+                      </div>
+                      <!-- col-md-2 -->
+                      <div class="col-md-5">
+                        <div
+                          class="card border-0 mb-2"
+                          style="background-color:#F8F9FA"
+                        >
+                          <div class="card-body text-center pt-0 pb-5">
+                            <div class="row">
+                              <div class="col">
+                                <p class="card-text">Cheaper</p>
+                                🤨
+                              </div>
+                              <div class="col">
+                                <p class="card-text">Equal Pr</p>
+                                🤨
+                              </div>
+                              <div class="col">
+                                <p class="card-text">More Expens</p>
+                                🤨
+                              </div>
+                              <div class="col">
+                                <p class="card-text">MAP</p>
+                                🤨
                               </div>
                             </div>
                           </div>
-                          <!-- /card -->
-
-                          <div class="card bg-light border-0">
-                            <div class="card-body text-center">
-                              <p class="card-text">
-                                <img
-                                  src="./assets/images/chart2.svg"
-                                  alt=""
-                                />
-                              </p>
-                            </div>
-                          </div>
-                          <!-- /card -->
                         </div>
+                        <!-- /card -->
+
+
+                              <img
+                                src="./assets/images/chart2.svg"
+                                alt=""
+                              />
+
                       </div>
-                      <!-- row -->
                     </div>
+                    <!-- row -->
                   </div>
                 </div>
               </div>
+
               <!-- product matches -->
 
               <div class="rounded card mt-4 shadow-sm">
@@ -1043,40 +1033,38 @@
 
         <!-- product history -->
 
-        <div class="col-md-12">
-          <div class="rounded">
-            <div class="card 3 mt-4 mb-4 shadow-sm">
-              <div
-                class="card-header text-white p-2"
-                style="background-color:#E94537"
-              >
-                Product Price History
-                <span class="ml-auto px-1 float-right"
-                  ><i class="fas fa-bars"></i
-                ></span>
-              </div>
-              <div class="card-body">
-                <div class="card" style="width:700px">
-                  <button
-                    type="button"
-                    class="btn btn-sm"
-                    style="background-color:#E5E3E3; width: 200px"
-                  >
-                    <!-- <Calender-Picker></Calender-Picker> -->
-                  </button>
-                  <img
-                    src="./assets/images/chart.svg"
-                    style="width:300px; margin:5px"
-                    alt="Card image"
-                  />
-                  <button
-                    type="button"
-                    class="btn btn-sm"
-                    style="background-color:#E5E3E3; width: 100px"
-                  >
-                    Hide all Sites
-                  </button>
-                </div>
+        <div class="rounded">
+          <div class="card 3 mt-4 mb-4 shadow-sm">
+            <div
+              class="card-header text-white p-2"
+              style="background-color:#E94537"
+            >
+              Product Price History
+              <span class="ml-auto px-1 float-right"
+                ><i class="fas fa-bars"></i
+              ></span>
+            </div>
+            <div class="card-body">
+              <div class="card" style="width:700px">
+                <button
+                  type="button"
+                  class="btn btn-sm"
+                  style="background-color:#E5E3E3; width: 200px"
+                >
+                  <!-- <Calender-Picker></Calender-Picker> -->
+                </button>
+                <img
+                  src="./assets/images/chart.svg"
+                  style="width:300px; margin:5px"
+                  alt="Card image"
+                />
+                <button
+                  type="button"
+                  class="btn btn-sm"
+                  style="background-color:#E5E3E3; width: 100px"
+                >
+                  Hide all Sites
+                </button>
               </div>
             </div>
           </div>

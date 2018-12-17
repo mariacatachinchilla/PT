@@ -8,11 +8,11 @@ body {
   font-size: 13px;
 }
 .navbar .navbar-brand {
-  color: #989898;
+  color: #333c45;
 }
 
 .navbar .navbar-text {
-  color: #989898;
+  color: #333c45;
 }
 
 .navbar .navbar-text a:hover,
@@ -20,7 +20,7 @@ body {
   color: #2da854;
 }
 .navbar .navbar-nav .nav-link {
-  color: #989898;
+  color: #333c45;
   border-radius: 0.25rem;
   margin: 0 0.25em;
 }

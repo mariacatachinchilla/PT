@@ -146,3 +146,8 @@ body {
   fill: #1a1a1a;
   color: #1a1a1a !important;
 }
+
+.nav-link.active {
+  fill: #f6bb2f;
+  color: #f6bb2f;
+}

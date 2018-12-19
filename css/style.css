@@ -147,7 +147,8 @@ body {
   color: #1a1a1a !important;
 }
 
-.nav-link.active {
-  fill: #f6bb2f;
-  color: #f6bb2f;
+.navbar .navbar-nav .nav-link:focus *,
+.navbar .navbar-nav .nav-link:focus {
+  fill: orange;
+  color: orange !important;
 }
